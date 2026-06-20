@@ -17,5 +17,17 @@ Pass the `CloudflareBindings` as generics when instantiating `Hono`:
 
 ```ts
 // src/index.ts
-const app = new Hono<{ Bindings: CloudflareBindings }>()
+const app = new Hono<{ Bindings: CloudflareBindings }>();
 ```
+
+## Generate Migrations
+
+pnpm drizzle-kit generate
+
+## Push migrations
+
+pnpm drizzle-kit push
+
+# Seeding
+
+pnpm seed
