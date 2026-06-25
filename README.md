@@ -1,8 +1,14 @@
 # Course Registration with Hono
 
+## Hono setup(other projects)
+
 ```txt
-npm install
-npm run dev
+pnpm create hono@latest
+```
+
+```txt
+pnpm install
+pnpm run dev
 ```
 
 ## Generate Migrations
