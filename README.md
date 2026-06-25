@@ -1,4 +1,4 @@
-# Course Registrati with hHOno
+# Course Registration with HOno
 
 ```txt
 npm install
